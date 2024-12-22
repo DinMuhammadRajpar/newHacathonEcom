@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        satoshi: ["var(--font-satoshi, )" , "sans-serif"],
+        // clashDisplay: ["var(--font-clashDisplay, )" , "sans-serif"],
+      },
+      screens: {
+        xs: '392px',
+      },
     },
   },
   plugins: [],
